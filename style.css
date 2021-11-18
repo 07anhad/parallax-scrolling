@@ -6,12 +6,14 @@
     padding: 0px;
     box-sizing: border-box;
     font-family:'Baloo Paaji 2', cursive;;
+    scroll-behavior: smooth;
 }
 
 body
 {
     min-height: 100vh;
     background: linear-gradient(#000000,#06014e);
+    overflow-x: hidden;
 }
 
 header{
