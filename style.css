@@ -70,6 +70,16 @@ section{
 
 }
 
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
+}
+
 section img{
     position: absolute;
     top: 3px;
@@ -108,4 +118,21 @@ section img#mountains_front{
     z-index: 9;
     transform: translateY(100px);
 
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: linear-gradient(#1c0522,rgb(0, 11, 36));
+}
+
+.sec h2{
+    font-size: 3.5em;
+    margin-bottom:10px;
+    color: #fff;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #fff;
 }
