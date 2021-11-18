@@ -69,6 +69,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
 
 }
 
@@ -102,7 +103,9 @@ section img#mountains_front{
 
 #text{
     position: absolute;
-    color: #fff;
+    color: rgb(0, 247, 255);
+    right: -350px;
+    filter: brightness(120%);
     white-space: nowrap;
     font-size: 8.5vw;
     z-index: 9;
