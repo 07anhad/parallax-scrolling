@@ -128,16 +128,17 @@ section img#mountains_front{
 .sec{
     position: relative;
     padding: 100px;
-    background: linear-gradient(#1c0522,rgb(23, 23, 57));
+    background: linear-gradient(#1c0522,rgb(26, 26, 58));
 }
 
 .sec h2{
     font-size: 3.5em;
     margin-bottom:10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .sec p{
     font-size: 1.1em;
-    color: #fff;
+    filter: brightness(150);
+    color: rgb(172, 171, 171);
 }
